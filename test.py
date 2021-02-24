@@ -10,6 +10,10 @@ from torchvision.utils import save_image
 import net
 from function import adaptive_instance_normalization, coral
 
+#python test.py --content_dir frame/inception_1.mp4 --style input/style/sketch.png --output output/inception_sketch_80k --decoder experiments/ex3/decoder_iter_80000.pth
+#python test.py --content_dir frame/inception_1.mp4 --style input/style/sketch.png --output output/inception_sketch_style_100 --decoder experiments/weight_adjust/style100/decoder_iter_80000.pth.tar
+#python test.py --content_dir frame/inception_1.mp4 --style input/style/picasso_self_portrait.jpg --output output/inception_picasso_style_1 --decoder experiments/weight_adjust/style1/decoder_iter_80000.pth.tar
+
 
 def test_transform(size, crop):
     transform_list = []

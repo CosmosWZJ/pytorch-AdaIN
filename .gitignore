@@ -3,4 +3,11 @@
 output/*
 .idea
 experiments/*
+train/*
+video/*
 logs/*
+output-preliminary/*
+output-provided/*
+frame/*
+stylized video/*
+venv/*
